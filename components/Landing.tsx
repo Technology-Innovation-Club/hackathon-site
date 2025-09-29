@@ -21,18 +21,18 @@ const Landing = () => {
               />
 
               <span className="flex items-end">
-                UC Berkeley{" "}
+                Tech Innovation Club{" "}
                 <sub className="mb-2 text-[5px] md:text-[7px]">TM</sub>
               </span>
-              <div className="relative">AI Hackathon</div>
+              <div className="relative">TIC Hackathon 2.0</div>
             </h1>
 
             <p className="mb-6 inline-block bg-gradient-to-r from-[#82F8FF] to-[#2F82FF] bg-clip-text text-xl text-transparent md:text-2xl">
-              June 22-23, 2024 @ UC Berkeley
+              October 24-25, 2025 @ Pan-Atlantic University
             </p>
             <p className="text-md mb-6 text-white lg:text-lg">
-              Over 1,000 hackers from around the world will come together to
-              revolutionize the AI landscape. Join us for 36 hours of hacking
+              Over 80 hackers from around the world will come together to
+              revolutionize the AI landscape. Join us for 24 hours of hacking
               and more than $100,000 in prizes.
             </p>
             <a

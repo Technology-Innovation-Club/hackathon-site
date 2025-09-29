@@ -36,7 +36,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "UC Berkeley AI Hackathon - Coming June 22-23, 2024",
+    default: "TIC Hackathon 2.0 - Coming October 24-25, 2025",
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,

@@ -14,19 +14,18 @@ export default function Home() {
         />
         <h1 className="mt-6 font-pp-mondwest text-5xl">About</h1>
         <p className="mt-4 max-w-2xl text-balance text-center text-xl">
-          Hackathons @ Berkeley, Berkeley SkyDeck, and UC Berkeley are joining
-          forces again to give you an unparalleled hacking experience.
+          The Tech Innovation Club presents its biggest hackathon ever.
         </p>
         <div className="w-95 mt-6 grid max-w-5xl gap-6 px-8 md:w-full md:grid-cols-3">
           <div className="rounded-lg bg-black/30 p-6">
-            <Link href="https://www.berkeley.edu/">
+            <Link href="https://ticpau.vercel.app/">
               <img
-                src="/images/berkeley.png"
+                src="/images/tic_logo.png"
                 style={{ height: "150px" }}
                 className="mx-auto"
               />
               <h4 className="mt-4 text-lg font-bold text-electric-blue">
-                UC Berkeley
+                Tech Innovation Club
               </h4>
             </Link>
             <p className="mt-2">
@@ -35,14 +34,14 @@ export default function Home() {
             </p>
           </div>
           <div className="rounded-lg bg-black/30 p-6">
-            <Link href="https://hackberkeley.org/">
+            <Link href="https://pau.edu.ng/">
               <img
-                src="/images/hab.png"
+                src="/images/pau_logo.png"
                 className="mx-auto p-8"
                 style={{ height: "150px" }}
               />
               <h4 className="mt-4 text-lg font-bold text-electric-blue">
-                Hackathons @ Berkeley
+                Pan-Atlantic University
               </h4>
             </Link>
             <p className="mt-2">
@@ -50,28 +49,6 @@ export default function Home() {
               that runs Cal Hacks, the world's largest collegiate hackathon.
               Hackathons @ Berkeley brings together innovative minds to push the
               boundaries of what is possible.
-            </p>
-          </div>
-          <div className="rounded-lg bg-black/30 p-6">
-            <Link href="https://skydeck.berkeley.edu/">
-              <img
-                src="/images/berkeley-skydeck-logo.png"
-                className="mx-auto p-8"
-                style={{
-                  height: "150px",
-                  objectFit: "contain",
-                  objectPosition: "center",
-                }}
-              />
-              <h4 className="mt-4 text-lg font-bold text-electric-blue">
-                Berkeley SkyDeck
-              </h4>
-            </Link>
-            <p className="mt-2">
-              SkyDeck partners with the Berkeley SkyDeck Fund, which shares half
-              the carried interest with Berkeley. Since its inception in 2018,
-              the fund has built a portfolio of over 200 globally scaled
-              companies, such as MindsDB and HaydenAI.
             </p>
           </div>
         </div>

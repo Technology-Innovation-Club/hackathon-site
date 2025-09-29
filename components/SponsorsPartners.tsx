@@ -77,26 +77,26 @@ export default function SponsorsPartners() {
         </p>
         <div className="mt-16 flex flex-row justify-center gap-4">
           <a
-            href="https://hackberkeley.org"
+            href="https://ticpau.vercel.app"
             rel="noopener noreferrer"
             target="_blank"
             className="relative z-50 m-0 -mt-1.5 h-[80px] w-[160px] p-0 sm:h-[100px] sm:w-[200px] xl:h-[125px] xl:w-[250px]"
           >
             <Image
-              src="/images/hab-logo.svg"
-              alt="Hackathons @ Berkeley Logo"
+              src="/images/tic_logo.png"
+              alt="Tech Innovation Club Logo"
               fill
             />
           </a>
           <a
-            href="https://skydeck.berkeley.edu/"
+            href="https://pau.edu.ng/"
             rel="noopener noreferrer"
             target="_blank"
             className="relative z-50 m-0 h-[56px] w-[160px] p-0 sm:h-[70px] sm:w-[200px] xl:h-[87.5px] xl:w-[250px]"
           >
             <Image
-              src="/images/berkeley-skydeck-logo.png"
-              alt="Berkeley Skydeck Logo"
+              src="/images/pau_logo.png"
+              alt="Pan-Atlantic University Logo"
               fill
             />
           </a>
@@ -150,8 +150,8 @@ export default function SponsorsPartners() {
             className="relative z-50 m-0 -mt-1.5 h-[150px] w-full p-0"
           >
             <Image
-              src="/images/sponsors/intel.png"
-              alt="Intel Logo"
+              src="/images/sponsors/servicenow_umn.jpg"
+              alt="Servicenow University Meetup Nigeria Logo"
               fill
               objectFit="contain"
             />

@@ -15,7 +15,7 @@ const Nav = () => {
               href="/"
               className="flex items-center px-2 py-5 text-xl text-white"
             >
-              <span className="font-pp-mondwest">UC Berkeley AI Hackathon</span>
+              <span className="font-pp-mondwest">TIC Hackathon 2.0</span>
             </Link>
           </div>
           {/* Standard nav bar for non-mobile */}

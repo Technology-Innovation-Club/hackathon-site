@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="bg-black bg-[url('../public/images/about-bg.svg')] bg-cover">
+    <main className="bg-black bg-cover">
       <Nav />
       <main className="relative z-10 flex min-h-screen flex-col items-center overflow-auto text-white">
         <img

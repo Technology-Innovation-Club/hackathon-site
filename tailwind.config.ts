@@ -38,6 +38,11 @@ const config: Config = {
       dropShadow: {
         input: "0 0 13px rgba(16, 114, 120, 0.62)",
       },
+      boxShadow: {
+        "glass": "0 8px 32px rgba(0, 0, 0, 0.3)",
+        "neon": "0 0 20px rgba(130, 248, 255, 0.5)",
+        "neon-purple": "0 0 20px rgba(218, 71, 255, 0.5)",
+      },
       keyframes: {
         wiggle: {
           "0%, 100%": {

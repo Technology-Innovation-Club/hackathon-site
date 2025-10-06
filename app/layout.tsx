@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
-  creator: "hackathonsatberkeley",
+  creator: "techinnovationclubpau",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -79,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${openSans.variable} ${whyteInktrap.variable} ${ppNeueBit.variable} ${ppMondwest.variable}`}
       >

@@ -1,28 +1,63 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 export default function DontMissOut() {
   return (
-    <div className=" px-10 py-28 md:px-0">
-      <p className="mb-6 text-center font-pp-mondwest text-3xl text-white sm:text-4xl xl:text-5xl">
+    <motion.div 
+      className="px-10 py-28 md:px-0 glass-card mx-8 md:mx-16 rounded-2xl border border-white/10"
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+    >
+      <motion.p 
+        className="mb-8 text-center font-pp-mondwest text-3xl gradient-text sm:text-4xl xl:text-6xl"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+      >
         Don&apos;t Miss Out.
-      </p>
-      <p className="mb-1 text-center text-base text-white sm:text-xl xl:text-2xl">
-        Saturday, June 22 at 9am PT - Sunday, June 23 at 6pm PT
-      </p>
-      <p className="mb-8 text-center text-base text-white sm:text-xl xl:text-2xl">
-        UC Berkeley, MLK Student Union Building
-      </p>
-      <div className="mx-auto text-center">
-        <a
+      </motion.p>
+      <motion.div 
+        className="mb-8 space-y-2"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+      >
+        <p className="text-center text-base text-gray-200 sm:text-xl xl:text-2xl">
+          <span className="text-electric-blue font-semibold">Saturday, June 22 at 9am PT</span> - <span className="text-heliotrope font-semibold">Sunday, June 23 at 6pm PT</span>
+        </p>
+        <p className="text-center text-base text-gray-200 sm:text-xl xl:text-2xl">
+          UC Berkeley, MLK Student Union Building
+        </p>
+      </motion.div>
+      <motion.div 
+        className="mx-auto text-center"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.6 }}
+      >
+        <motion.a
           rel="noopener noreferrer"
           target="_blank"
           href="https://apply.hackberkeley.org"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
         >
-          <button className="mx-auto h-[38.4px] w-[110.4px] bg-white text-base text-opacity-0 hover:bg-[#e6e6e6] sm:h-[48px] sm:w-[138px] sm:text-xl xl:h-[60px] xl:w-[172.5px] xl:text-2xl">
-            Apply
+          <button className="group relative overflow-hidden bg-gradient-to-r from-electric-blue to-heliotrope px-12 py-4 font-bold text-black transition-all duration-300 hover:shadow-neon rounded-lg text-lg sm:text-xl xl:text-2xl">
+            <span className="relative z-10">Apply Now</span>
+            <motion.div 
+              className="absolute inset-0 bg-gradient-to-r from-heliotrope to-electric-blue"
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+            />
           </button>
-        </a>
-      </div>
-    </div>
+        </motion.a>
+      </motion.div>
+    </motion.div>
   );
 }

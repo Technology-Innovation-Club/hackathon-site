@@ -7,48 +7,42 @@ import Logos from "./Logos";
 
 const Landing = () => {
   return (
-    <div className="relative w-full overflow-hidden">
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-screen-xl flex-col place-content-between items-start justify-between px-20 py-40">
-        <div className="relative flex flex-col items-start text-left">
+    <div className="relative w-full overflow-hidden pt-20">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-screen-xl flex-col place-content-between items-start justify-between px-8 py-20 md:px-20 md:py-40">
+        <div className="relative flex flex-col items-start text-left animate-fade-in-up">
           <div className="max-w-md">
             <h1 className="flex flex-col font-pp-mondwest text-4xl text-white sm:text-6xl md:text-7xl">
-              <Image
-                src="/images/four-point.svg"
-                alt="Four Point"
-                width={75}
-                height={75}
-                className="-mt-1 ml-[-60px]"
-              />
 
-              <span className="flex items-end">
-                Tech Innovation Club{" "}
-                <sub className="mb-2 text-[5px] md:text-[7px]">TM</sub>
+              <span className="flex items-end gradient-text">
+                Tech Innovation Club
               </span>
-              <div className="relative">TIC Hackathon 2.0</div>
+              <div className="relative gradient-text text-6xl md:text-8xl font-bold">Hackathon 2.0</div>
             </h1>
 
-            <p className="mb-6 inline-block bg-gradient-to-r from-[#82F8FF] to-[#2F82FF] bg-clip-text text-xl text-transparent md:text-2xl">
+            <p className="mb-6 inline-block bg-gradient-to-r from-[#82F8FF] via-[#DA47FF] to-[#FFD700] bg-clip-text text-xl text-transparent md:text-2xl font-semibold animate-slide-in-right">
               October 24-25, 2025 @ Pan-Atlantic University
             </p>
-            <p className="text-md mb-6 text-white lg:text-lg">
+            <p className="text-md mb-8 text-gray-200 lg:text-lg leading-relaxed animate-fade-in-up">
               Over 80 hackers from around the world will come together to
               revolutionize the AI landscape. Join us for 24 hours of hacking
-              and more than $100,000 in prizes.
+              and more than <span className="gradient-text font-bold">$100,000 in prizes</span>.
             </p>
             <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://apply.hackberkeley.org"
+              className="inline-block animate-fade-in-up"
             >
-              <button className="border border-transparent bg-white px-4 py-2 font-semibold text-black transition ease-in-out hover:-translate-y-1">
-                Apply
+              <button className="group relative overflow-hidden bg-gradient-to-r from-electric-blue to-heliotrope px-8 py-4 font-bold text-black transition-all duration-300 hover:scale-105 hover:shadow-neon rounded-lg">
+                <span className="relative z-10">Apply Now</span>
+                <div className="absolute inset-0 bg-gradient-to-r from-heliotrope to-electric-blue opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               </button>
             </a>
-            <p className="mt-2 max-w-[300px] text-sm text-white">
-              priority apps due <b>June 1st, 11:59pm PST</b>
-              <br />
-              regular apps due <b>June 10th, 11:59 pm PST</b>
-            </p>
+            <div className="mt-6 glass-card p-4 rounded-lg max-w-[350px] animate-fade-in-up">
+              <p className="text-sm text-gray-200">
+                <span className="text-electric-blue font-semibold">Applications due:</span> <b>October 13th, 11:59pm WAT</b>
+              </p>
+            </div>
             <Logos className="visible mt-12 lg:hidden" />
           </div>
         </div>

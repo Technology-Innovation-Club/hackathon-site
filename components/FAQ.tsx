@@ -144,10 +144,10 @@ const FAQ = () => {
           <Grid container spacing={2}>
             {/* This Grid item will take full width on small screens and half width on medium and larger screens */}
             <Grid item xs={12} md={6}>
-              <h1 className="mb-0 font-pp-mondwest text-4xl text-white">
+              <h1 className="mb-0 font-pp-mondwest text-4xl gradient-text animate-fade-in-up">
                 Frequently Asked Questions
               </h1>
-              <h1 className="mb-10 font-pp-mondwest text-4xl text-electric-blue">
+              <h1 className="mb-10 font-pp-mondwest text-4xl text-electric-blue animate-fade-in-up">
                 - we’ve got the answers.
               </h1>
             </Grid>

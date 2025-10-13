@@ -8,7 +8,7 @@ import Revolution from "@/components/Revolution";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-br from-[#0B142A] to-[#0B142A] xbg-cover min-h-screen">
+    <main className="bg-white xbg-cover min-h-screen">
       <Nav />
       <Landing />
       <Revolution />

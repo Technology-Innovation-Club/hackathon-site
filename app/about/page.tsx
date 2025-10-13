@@ -1,31 +1,29 @@
 /* eslint-disable react/no-unescaped-entities */
 import Nav from "@/components/Nav";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-black bg-cover">
+    <main className="bg-white bg-cover">
       <Nav />
-      <main className="relative z-10 flex min-h-screen flex-col items-center overflow-auto text-white">
-        <img
-          src="/images/four-point.png"
-          className="mt-24"
-          style={{ height: "50px" }}
-        />
+      <main className="relative z-10 flex min-h-screen flex-col items-center overflow-auto text-black">
         <h1 className="mt-6 font-pp-mondwest text-5xl">About</h1>
         <p className="mt-4 max-w-2xl text-balance text-center text-xl">
           The Tech Innovation Club presents its biggest hackathon ever.
         </p>
         <div className="w-95 mt-6 grid max-w-5xl gap-6 px-8 md:w-full md:grid-cols-3">
           <div className="rounded-lg bg-black/30 p-6">
-            <Link href="https://ticpau.vercel.app/">
-              <img
-                src="/images/tic_logo.png"
-                style={{ height: "150px" }}
+            <Link href="https://pau.edu.ng/">
+              <Image
+                alt="Pan-Atlantic University logo"
+                src="/images/pau_logo.png"
                 className="mx-auto"
+                height={150}
+                width={150}
               />
               <h4 className="mt-4 text-lg font-bold text-electric-blue">
-                Tech Innovation Club
+                Pan-Atlantic University
               </h4>
             </Link>
             <p className="mt-2">
@@ -34,14 +32,16 @@ export default function Home() {
             </p>
           </div>
           <div className="rounded-lg bg-black/30 p-6">
-            <Link href="https://pau.edu.ng/">
-              <img
-                src="/images/pau_logo.png"
-                className="mx-auto p-8"
-                style={{ height: "150px" }}
+            <Link href="https://ticpau.vercel.app/">
+              <Image
+                alt="Tech Innovation Club Logo"
+                src="/images/tic_logo.png"
+                height={150}
+                width={150}
+                className="mx-auto"
               />
               <h4 className="mt-4 text-lg font-bold text-electric-blue">
-                Pan-Atlantic University
+                Tech Innovation Club
               </h4>
             </Link>
             <p className="mt-2">
@@ -52,55 +52,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        {/* <h2 className="mt-24 font-pp-mondwest text-5xl">Key Advisors</h2> */}
-        {/* <div className="w-95 mb-64 mt-8 grid max-w-5xl gap-6 md:w-full md:grid-cols-3">
-          <div>
-            <img
-              src="/images/oski.jpeg"
-              className="mx-auto rounded-full object-cover"
-              style={{ height: "175px", width: "175px" }}
-            />
-            <h4 className="mt-4 text-center text-lg font-bold">
-              Oski The Bear
-            </h4>
-            <p className="mt-2  text-center">
-              Beary important person @ Cal Hacks.
-            </p>
-          </div>
-          <div>
-            <img
-              src="/images/oski.jpeg"
-              className="mx-auto rounded-full object-cover"
-              style={{ height: "175px", width: "175px" }}
-            />
-            <h4 className="mt-4 text-center text-lg font-bold">
-              Oski The Bear
-            </h4>
-            <p className="mt-2  text-center">
-              Beary important person @ Cal Hacks.
-            </p>
-          </div>
-          <div>
-            <img
-              src="/images/oski.jpeg"
-              className="mx-auto rounded-full object-cover"
-              style={{ height: "175px", width: "175px" }}
-            />
-            <h4 className="mt-4 text-center text-lg font-bold">
-              Oski The Bear
-            </h4>
-            <p className="mt-2  text-center">
-              Beary important person @ Cal Hacks.
-            </p>
-          </div>
-        </div> */}
       </main>
-      {/* <div className="margin-auto fixed bottom-[-50vh] left-1/2 z-0 h-[1144px] w-[1181px] w-full -translate-x-1/2 transform overflow-hidden rounded-full bg-gradient-radial blur-xl"></div>
-      <style>
-        {`html {
-          background: #000
-        }`}
-      </style> */}
     </main>
   );
 }

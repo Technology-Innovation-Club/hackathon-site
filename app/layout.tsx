@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/lib/config";
-import Banner from "@/components/Banner";
+// import Banner from "@/components/Banner";
 
 const ppNeueBit = localFont({
   src: "./PPNeueBit-Bold.otf",
@@ -30,7 +30,7 @@ const openSans = Open_Sans({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#000911",
+  themeColor: "#ffffff",
 };
 
 export const metadata: Metadata = {
@@ -83,7 +83,8 @@ export default function RootLayout({
       <body
         className={`${openSans.variable} ${whyteInktrap.variable} ${ppNeueBit.variable} ${ppMondwest.variable}`}
       >
-        <Banner />
+        {/* Import Banner 1 week to event date */}
+        {/* <Banner /> */}
         {children}
       </body>
     </html>

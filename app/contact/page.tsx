@@ -2,9 +2,9 @@ import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <main className="bg-black bg-[url('../public/images/contact-bg.svg')] bg-cover">
+    <main className="bg-white bg-cover">
       <Nav />
-      <main className="relative z-10 flex h-screen flex-col items-center overflow-hidden text-white">
+      <main className="relative z-10 flex h-screen flex-col items-center overflow-hidden text-black">
         <img
           src="/images/four-point.png"
           className="mt-24"
@@ -25,7 +25,7 @@ export default function Home() {
               time. We apologize for the inconvenience
             </p>
             <p className="text-bold text-electric-blue">
-              <a href="mailto:team@calhacks.io">team@calhacks.io</a>
+              <a href="mailto:tech.innovation.club@pau.edu.ng">tech.innovation.club@pau.edu.ng</a>
             </p>
           </div>
         </div>

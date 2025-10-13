@@ -16,7 +16,7 @@
 }
 
 body {
-  background: #000000;
+  background: white;
   background-attachment: fixed;
   min-height: 100vh;
   position: relative;
@@ -58,13 +58,6 @@ body::before {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-  }
-
-  .gradient-text {
-    background: linear-gradient(135deg, #82F8FF 0%, #DA47FF 50%, #FFD700 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   .marquee-text {

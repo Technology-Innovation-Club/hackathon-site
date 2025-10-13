@@ -1,15 +1,11 @@
 import Nav from "@/components/Nav";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="bg-white bg-cover">
       <Nav />
       <main className="relative z-10 flex h-screen flex-col items-center overflow-hidden text-black">
-        <img
-          src="/images/four-point.png"
-          className="mt-24"
-          style={{ height: "100px" }}
-        />
         <h1 className="mt-6 font-pp-mondwest text-5xl">Contact Us</h1>
         <p className="mt-4 max-w-2xl text-balance text-center text-xl">
           Any questions? Let us know!

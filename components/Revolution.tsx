@@ -47,7 +47,7 @@ const Revolution = () => {
         transition={{ duration: 0.6, delay: 0.4 }}
       >
         Explore the potential of large language models and other open source
-        API's, all while <span className="font-bold">making a lasting impact</span> in the world of
+        API&apos;s, all while <span className="font-bold">making a lasting impact</span> in the world of
         artificial intelligence.
       </motion.p>
       <div className="my-16 grid max-w-[85vw] grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">

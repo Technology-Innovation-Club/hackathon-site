@@ -81,7 +81,7 @@ export default function PhotoGrid() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: item.delay }}
             >
-              <img
+              <Image
                 className="h-full w-full object-cover"
                 src={`/images/image-grid/${item.img}.png`}
                 alt={item.img}

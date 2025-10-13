@@ -29,18 +29,18 @@ export default function PhotoGrid() {
         <div className="z-10 hidden h-full grid-cols-11 grid-rows-11 gap-3 md:grid">
           {[
             { col: "col-span-3 col-start-1", row: "row-span-2 row-start-1", img: "DSC_0569.png", delay: 0 },
-            { col: "col-span-3 col-start-4", row: "row-span-2 row-start-1", img: "DSC_0493.jpg", delay: 0.1 },
+            { col: "col-span-3 col-start-4", row: "row-span-2 row-start-1", img: "DSC_0493.webp", delay: 0.1 },
             { col: "col-span-3 col-start-7", row: "row-span-3 row-start-1", img: "DSC_0444.png", delay: 0.2 },
             { col: "col-span-2 col-start-10", row: "row-span-3 row-start-1", img: "DSC_0235.png", delay: 0.3 },
             { col: "col-span-2 col-start-1", row: "row-span-3 row-start-3", img: "DSC_0655.png", delay: 0.4 },
-            { col: "col-span-4 col-start-3", row: "row-span-3 row-start-3", img: "DSC_0703.jpg", delay: 0.5 },
-            { col: "col-span-5 col-start-7", row: "row-span-4 row-start-4", img: "DSC_0683.jpg", delay: 0.6 },
-            { col: "col-span-4 col-start-1", row: "row-span-3 row-start-6", img: "DSC_0532.jpg", delay: 0.7 },
+            { col: "col-span-4 col-start-3", row: "row-span-3 row-start-3", img: "DSC_0703.webp", delay: 0.5 },
+            { col: "col-span-5 col-start-7", row: "row-span-4 row-start-4", img: "DSC_0683.webp", delay: 0.6 },
+            { col: "col-span-4 col-start-1", row: "row-span-3 row-start-6", img: "DSC_0532.webp", delay: 0.7 },
             { col: "col-span-2 col-start-5", row: "row-span-4 row-start-6", img: "DSC_0274.png", delay: 0.8 },
-            { col: "col-span-2 col-start-7", row: "row-span-4 row-start-8", img: "DSC_0342.jpg", delay: 0.9 },
+            { col: "col-span-2 col-start-7", row: "row-span-4 row-start-8", img: "DSC_0342.webp", delay: 0.9 },
             { col: "col-span-3 col-start-9", row: "row-span-4 row-start-8", img: "DSC_0419.png", delay: 1.0 },
-            { col: "col-span-4 col-start-1", row: "row-span-3 row-start-9", img: "DSC_0119.jpg", delay: 1.1 },
-            { col: "col-span-2 col-start-5", row: "row-span-2 row-start-10", img: "DSC_0022.jpg", delay: 1.2 },
+            { col: "col-span-4 col-start-1", row: "row-span-3 row-start-9", img: "DSC_0119.webp", delay: 1.1 },
+            { col: "col-span-2 col-start-5", row: "row-span-2 row-start-10", img: "DSC_0022.webp", delay: 1.2 },
           ].map((item, index) => (
             <motion.div
               key={index}
@@ -84,6 +84,7 @@ export default function PhotoGrid() {
               <Image
                 className="h-full w-full object-cover"
                 src={`/images/image-grid/${item.img}.png`}
+                fill
                 alt={item.img}
               />
             </motion.div>

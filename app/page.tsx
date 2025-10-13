@@ -5,12 +5,14 @@ import Nav from "@/components/Nav";
 import FAQ from "@/components/FAQ";
 import Landing from "@/components/Landing";
 import Revolution from "@/components/Revolution";
+import CountdownTimer from "@/components/CountdownTimer";
 
 export default function Home() {
   return (
     <main className="bg-white xbg-cover min-h-screen">
       <Nav />
       <Landing />
+      <CountdownTimer />
       <Revolution />
       <PhotoGrid />
       <FAQ />

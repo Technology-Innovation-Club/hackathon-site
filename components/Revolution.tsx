@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const cards = [
   {
-    heading: "₦1M Prize Pool + Startup Funding",
+    heading: "₦1 Million Prize Pool + Startup Funding",
     description:
       "Compete for a total prize pool of ₦1 million in startup funding, with top teams receiving 500k, 300k, and 200k respectively, plus opportunities to launch your solutions as startups.",
   },

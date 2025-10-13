@@ -28,10 +28,10 @@ export default function DontMissOut() {
         transition={{ duration: 0.6, delay: 0.4 }}
       >
         <p className="text-center text-base text-black sm:text-xl xl:text-2xl">
-          <span className="text-electric-blue font-semibold">Saturday, June 22 at 9am PT</span> - <span className="text-heliotrope font-semibold">Sunday, June 23 at 6pm PT</span>
+          <span className="font-semibold">Friday, October 24 at 1pm WAT</span> - <span className="font-semibold">Saturday, October 25 at 5pm WAT</span>
         </p>
         <p className="text-center text-base text-black sm:text-xl xl:text-2xl">
-          UC Berkeley, MLK Student Union Building
+          Pan-Atlantic University, Abuja Classroom
         </p>
       </motion.div>
       <motion.div 
@@ -44,17 +44,12 @@ export default function DontMissOut() {
         <motion.a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://apply.hackberkeley.org"
+          href="https://tinyurl.com/tichackathon2"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <button className="group relative overflow-hidden bg-gradient-to-r from-electric-blue to-heliotrope px-12 py-4 font-bold text-black transition-all duration-300 hover:shadow-neon rounded-lg text-lg sm:text-xl xl:text-2xl">
+          <button className="group relative overflow-hidden px-12 py-4 font-bold text-white bg-black transition-all duration-300 hover:shadow-neon rounded-lg text-lg sm:text-xl xl:text-2xl">
             <span className="relative z-10">Apply Now</span>
-            <motion.div 
-              className="absolute inset-0 bg-gradient-to-r from-heliotrope to-electric-blue"
-              initial={{ opacity: 0 }}
-              whileHover={{ opacity: 1 }}
-            />
           </button>
         </motion.a>
       </motion.div>

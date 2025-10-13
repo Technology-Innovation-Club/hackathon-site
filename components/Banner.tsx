@@ -15,7 +15,7 @@ export default function Banner() {
       <p className="text-sm leading-6 text-white">
         <a
           rel="noopener noreferrer"
-          href="https://lu.ma/ucbaihackathon2024"
+          href=""
           target="_blank"
         >
           <strong className="font-semibold">🎉 Closing Ceremony</strong>
@@ -26,7 +26,7 @@ export default function Banner() {
           >
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Join us at the closing ceremony this Sunday, June 23; all are welcome!
+          Join us at the closing ceremony next Sunday, October 25; all are welcome!
           &nbsp;<span aria-hidden="true">&rarr;</span>
         </a>
       </p>

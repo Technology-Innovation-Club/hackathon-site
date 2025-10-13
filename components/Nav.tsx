@@ -27,14 +27,6 @@ const Nav = () => {
             >
               About
             </Link>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://forms.gle/x9AsZLftCKM1CAFE6"
-              className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
-            >
-              Volunteer/Judge
-            </a>
             <Link
               href="/contact"
               className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"

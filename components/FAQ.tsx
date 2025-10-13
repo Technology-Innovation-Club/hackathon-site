@@ -59,53 +59,77 @@ const FAQ = () => {
   const faqList: FAQItem[] = [
     {
       id: "faq-1",
-      question: "What is the TIC Hackathon?",
+      question: "What is a Hackathon?",
       answer:
-        "Tech Innovation Club's Hackathon is a 2-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash, and attend workshops and panels to learn more about emerging tech!",
+        "Hackathons are events where programmers collaborate together to create new software and hardware projects. While websites and mobile apps are common types of hacks, you are encouraged to build anything your imagination inspires.",
     },
     {
       id: "faq-2",
-      question: "Who can participate in the AI Hackathon?",
+      question: "What is TIC Hackathon 2.0?",
       answer:
-        "The AI Hackathon is open to undergraduate and graduate students as well as new grads from all colleges and universities. We had 250+ universities represented in 2023 and are partnering with the Hacker clubs at other colleges throughout the US.",
+        "A 24-hour innovation challenge at Pan-Atlantic University (Oct 24–25, 2025) where students build and pitch AI-powered solutions.",
     },
     {
       id: "faq-3",
-      question: "How many people can be on a single team?",
-      answer: "Up to 4 people can be part of a single team.",
+      question: "Who can participate?",
+      answer:
+        "Participation is limited to PAU students for this edition.",
     },
     {
       id: "faq-4",
-      question: "Do I have to have a team to participate?",
+      question: "What is the theme?",
       answer:
-        "No. We will have team matching during the event itself, or you can come with a team or solo. Whatever works for you!",
+        "Reimagining Today with AI. Participants are to build solutions that leverage AI across domains like education, fintech, and productivity.",
     },
     {
       id: "faq-5",
-      question: "What experience level is needed to attend?",
-      answer: "All experience levels are welcome!",
+      question: "How many people can be on a team and what roles are recommended?",
+      answer:
+        "Teams could be composed of 1 - 4 members. Recommended roles: frontend developer, backend developer, AI/ML developer, and a product manager.",
     },
     {
       id: "faq-6",
-      question: "Can I start on my project before the hackathon?",
+      question: "Can we start building before the hackathon?",
       answer:
-        "You cannot work on a project you started before the hackathon. Ideation before the hackathon is allowed, but all implementation must occur during the hackathon.",
+        "No implementation before the event. Ideation is allowed, but all building must occur during the hackathon.",
     },
     {
       id: "faq-7",
-      question: "Do I have to be in-person?",
+      question: "What must our project include?",
       answer:
-        "Yes, you and your team will all have to be in-person at UC Berkeley to participate in the hackathon.",
+        "An application of AI and an MVP demo. Teams are penalized if they do not demo an MVP.",
     },
     {
       id: "faq-8",
-      question:
-        "Do you provide travel reimbursements or transportation for hackers?",
+      question: "Will there be mentorship?",
       answer:
-        "Unfortunately not—hackers are in charge of getting themselves to the venue. However, there’s reliable public transportation in the Bay, such as CalTrain, BART, and buses in Berkeley. The nearest airports are SFO and OAK, and there are various hotels around Berkeley including Residence Inn and Hotel Shattuck Plaza (Note: We are not sponsored by or partnering with these hotels).",
+        "Yes. Each qualifying team is assigned a mentor from Oct 17 until event day.",
+    },
+    {
+      id: "faq-9",
+      question: "What is the prize pool?",
+      answer:
+        "₦1 million in startup funding (1st ₦500,000; 2nd ₦300,000; 3rd ₦200,000).",
+    },
+    {
+      id: "faq-10",
+      question: "How are projects judged?",
+      answer:
+        "Criteria: Originality, Viability, Scalability, Functionality, Teamwork, Presentation. MVP demo is required.",
+    },
+    {
+      id: "faq-11",
+      question: "Are meals provided?",
+      answer:
+        "Yes. Dinner on Friday and breakfast on Saturday. Teams have all-day access to the hack space.",
+    },
+    {
+      id: "faq-12",
+      question: "Where is it held and is it in-person?",
+      answer:
+        "In-person at Pan-Atlantic University (Hack space & Demo).",
     },
   ];
-
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded ? panel : false);

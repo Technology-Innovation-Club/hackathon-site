@@ -8,22 +8,22 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 z-50 w-full glass-card border-b border-white/10">
+    <nav className="sticky top-0 z-50 w-full glass-card border-b text-black border-white/10">
       <div className="mx-auto max-w-screen-xl px-4">
         <div className="flex justify-between">
           <div className="flex space-x-4">
             <Link
               href="/"
-              className="flex items-center px-2 py-5 text-xl text-white transition-all duration-300 hover:text-electric-blue"
+              className="flex items-center px-2 py-5 text-xl transition-all duration-300 hover:text-electric-blue"
             >
-              <span className="font-pp-mondwest gradient-text">TIC Hackathon 2.0</span>
+              <span className="font-pp-mondwest">TIC Hackathon 2.0</span>
             </Link>
           </div>
           {/* Standard nav bar for non-mobile */}
           <div className="hidden items-center space-x-6 text-balance text-center md:flex">
             <Link
               href="/about"
-              className="px-3 py-5 text-white transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
             >
               About
             </Link>
@@ -31,21 +31,21 @@ const Nav = () => {
               rel="noopener noreferrer"
               target="_blank"
               href="https://forms.gle/x9AsZLftCKM1CAFE6"
-              className="px-3 py-5 text-white transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
             >
               Volunteer/Judge
             </a>
             <Link
               href="/contact"
-              className="px-3 py-5 text-white transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
             >
               Contact
             </Link>
             <a
-              href="https://apply.hackberkeley.org/login"
+              href="https://tinyurl.com/tichackathon2"
               rel="noopener noreferrer"
               target="_blank"
-              className="glass-button px-4 py-2 text-white font-medium rounded-lg transition-all duration-300 hover:shadow-neon"
+              className="glass-button px-4 py-2 text-black font-medium rounded-lg transition-all duration-300 hover:shadow-neon"
             >
               Apply
             </a>
@@ -56,7 +56,7 @@ const Nav = () => {
             <button className="p-4" onClick={() => setIsOpen(!isOpen)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-white"
+                className="h-6 w-6 text-black"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -80,7 +80,7 @@ const Nav = () => {
                 >
               <Link
                 href="/about"
-                className="px-3 py-5 text-white hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
               >
                 About
               </Link>
@@ -88,13 +88,13 @@ const Nav = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://forms.gle/x9AsZLftCKM1CAFE6"
-                className="px-3 py-5 text-white hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
               >
                 Volunteer/Judge
               </a>
               <Link
                 href="/contact"
-                className="px-3 py-5 text-white hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
               >
                 Contact
               </Link>
@@ -102,7 +102,7 @@ const Nav = () => {
                 href="https://apply.hackberkeley.org"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="px-3 py-5 text-white hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
               >
                 Apply
               </Link>

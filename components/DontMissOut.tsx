@@ -12,7 +12,7 @@ export default function DontMissOut() {
       transition={{ duration: 0.8 }}
     >
       <motion.p 
-        className="mb-8 text-center font-pp-mondwest text-3xl gradient-text sm:text-4xl xl:text-6xl"
+        className="mb-8 text-center font-pp-mondwest text-3xl sm:text-4xl xl:text-6xl"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -27,10 +27,10 @@ export default function DontMissOut() {
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        <p className="text-center text-base text-gray-200 sm:text-xl xl:text-2xl">
+        <p className="text-center text-base text-black sm:text-xl xl:text-2xl">
           <span className="text-electric-blue font-semibold">Saturday, June 22 at 9am PT</span> - <span className="text-heliotrope font-semibold">Sunday, June 23 at 6pm PT</span>
         </p>
-        <p className="text-center text-base text-gray-200 sm:text-xl xl:text-2xl">
+        <p className="text-center text-base text-black sm:text-xl xl:text-2xl">
           UC Berkeley, MLK Student Union Building
         </p>
       </motion.div>

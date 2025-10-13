@@ -11,21 +11,21 @@ const Landing = () => {
       <div className="relative z-10 mx-auto flex min-h-screen max-w-screen-xl flex-col place-content-between items-start justify-between px-8 py-20 md:px-20 md:py-40">
         <div className="relative flex flex-col items-start text-left animate-fade-in-up">
           <div className="max-w-md">
-            <h1 className="flex flex-col font-pp-mondwest text-4xl text-white sm:text-6xl md:text-7xl">
+            <h1 className="flex flex-col font-pp-mondwest text-4xl text-black sm:text-6xl md:text-7xl">
 
-              <span className="flex items-end gradient-text">
+              <span className="flex items-end">
                 Tech Innovation Club
               </span>
-              <div className="relative gradient-text text-6xl md:text-8xl font-bold">Hackathon 2.0</div>
+              <div className="relative text-6xl md:text-8xl font-bold">Hackathon 2.0</div>
             </h1>
 
             <p className="mb-6 inline-block bg-gradient-to-r from-[#82F8FF] via-[#DA47FF] to-[#FFD700] bg-clip-text text-xl text-transparent md:text-2xl font-semibold animate-slide-in-right">
               October 24-25, 2025 @ Pan-Atlantic University
             </p>
-            <p className="text-md mb-8 text-gray-200 lg:text-lg leading-relaxed animate-fade-in-up">
+            <p className="text-md mb-8 text-black lg:text-lg leading-relaxed animate-fade-in-up">
               Over 80 hackers from around the world will come together to
               revolutionize the AI landscape. Join us for 24 hours of hacking
-              and more than <span className="gradient-text font-bold">$100,000 in prizes</span>.
+              and more than <span className="font-bold">$100,000 in prizes</span>.
             </p>
             <a
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const Landing = () => {
               </button>
             </a>
             <div className="mt-6 glass-card p-4 rounded-lg max-w-[350px] animate-fade-in-up">
-              <p className="text-sm text-gray-200">
+              <p className="text-sm text-black">
                 <span className="text-electric-blue font-semibold">Applications due:</span> <b>October 13th, 11:59pm WAT</b>
               </p>
             </div>
@@ -65,7 +65,7 @@ const Landing = () => {
           height={630}
         />
       </div>
-      <div className="absolute right-[240px] top-[600px] hidden text-6xl text-white lg:block">
+      <div className="absolute right-[240px] top-[600px] hidden text-6xl text-black lg:block">
         <Logos />
       </div>
     </div>

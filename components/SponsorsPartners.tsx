@@ -8,7 +8,7 @@ export default function SponsorsPartners() {
     <div className="mx-auto flex max-w-screen-lg px-8 pb-16 pt-4 sm:px-4 md:px-0 lg:pb-0">
       <div className="m-auto">
         <motion.p 
-          className="mb-4 text-center font-pp-mondwest text-3xl gradient-text sm:text-4xl xl:text-5xl"
+          className="mb-4 text-center font-pp-mondwest text-3xl sm:text-4xl xl:text-5xl"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -17,7 +17,7 @@ export default function SponsorsPartners() {
           Sponsors & Partners
         </motion.p>
         <motion.p 
-          className="text-center text-base text-gray-200 sm:text-xl xl:text-2xl"
+          className="text-center text-base text-black sm:text-xl xl:text-2xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

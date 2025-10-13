@@ -23,7 +23,7 @@ const FAQ = () => {
   const styles = {
     accordionRoot: {
       backgroundColor: "rgba(255, 255, 255, 0.1)",
-      color: "white",
+      color: "black",
       marginBottom: "20px",
       padding: "10px",
       borderRadius: "15px",
@@ -40,7 +40,7 @@ const FAQ = () => {
       padding: "0 1rem 1rem",
     },
     expandIcon: {
-      color: "white",
+      color: "black",
     },
     errorIcon: {
       verticalAlign: "middle",
@@ -59,9 +59,9 @@ const FAQ = () => {
   const faqList: FAQItem[] = [
     {
       id: "faq-1",
-      question: "What is the AI Hackathon?",
+      question: "What is the TIC Hackathon?",
       answer:
-        "UC Berkeley’s AI Hackathon is a 2-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash, and attend workshops and panels to learn more about emerging tech!",
+        "Tech Innovation Club's Hackathon is a 2-day hackathon, where hackers creatively collaborate on innovative technology for a chance to win prizes including cash, and attend workshops and panels to learn more about emerging tech!",
     },
     {
       id: "faq-2",
@@ -144,7 +144,7 @@ const FAQ = () => {
           <Grid container spacing={2}>
             {/* This Grid item will take full width on small screens and half width on medium and larger screens */}
             <Grid item xs={12} md={6}>
-              <h1 className="mb-0 font-pp-mondwest text-4xl gradient-text animate-fade-in-up">
+              <h1 className="mb-0 font-pp-mondwest text-4xl animate-fade-in-up">
                 Frequently Asked Questions
               </h1>
               <h1 className="mb-10 font-pp-mondwest text-4xl text-electric-blue animate-fade-in-up">

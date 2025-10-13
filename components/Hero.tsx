@@ -42,13 +42,13 @@ const Hero = () => {
 
   return (
     <div className="relative w-full overflow-hidden">
-      <div className="absolute right-[120px] top-[80px] hidden text-6xl text-white md:block">
+      <div className="absolute right-[120px] top-[80px] hidden text-6xl text-black md:block">
         <Logos />
       </div>
       <div className="md:items-between relative z-10 mx-auto flex min-h-[100vh] max-w-screen-xl flex-col items-center px-8 pb-12 pt-36 sm:px-16 md:place-content-between md:items-start md:justify-between md:px-20 md:py-40">
         <div className="relative flex flex-col items-center text-center md:items-start md:text-left">
           <div className="max-w-md">
-            <h1 className="flex flex-col font-pp-neue-bit text-5xl font-bold text-white sm:text-7xl md:text-8xl">
+            <h1 className="flex flex-col font-pp-neue-bit text-5xl font-bold text-black sm:text-7xl md:text-8xl">
               <span>UC Berkeley</span>
               {/* <span title="AI Hackathon" className="-mt-2 sm:-mt-5">
                 AI Hackathon
@@ -90,9 +90,9 @@ const Hero = () => {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="mt-32 w-full w-full max-w-md font-whyte-inktrap text-white md:ml-auto md:mt-[30vh]"
+          className="mt-32 w-full w-full max-w-md font-whyte-inktrap text-black md:ml-auto md:mt-[30vh]"
         >
-          <p className="text-center text-center text-lg text-white sm:whitespace-nowrap md:text-right md:text-right md:text-xl">
+          <p className="text-center text-center text-lg text-black sm:whitespace-nowrap md:text-right md:text-right md:text-xl">
             Be the first to know when applications launch.
           </p>
           <div className="mt-4 flex flex-row space-x-4">
@@ -102,7 +102,7 @@ const Hero = () => {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="focus:ring-none block w-full rounded-none border border-2 border-[#72DDE7] bg-background/50 bg-background/50 p-2.5 font-open-sans text-sm font-medium text-gray-900 text-white placeholder-gray-200 shadow-lg shadow-[#1072789e] drop-shadow-input focus:border-[#72DDE7] focus:ring-transparent"
+              className="focus:ring-none block w-full rounded-none border border-2 border-[#72DDE7] bg-background/50 bg-background/50 p-2.5 font-open-sans text-sm font-medium text-gray-900 text-black placeholder-gray-200 shadow-lg shadow-[#1072789e] drop-shadow-input focus:border-[#72DDE7] focus:ring-transparent"
               placeholder="john@gmail.com"
               required
             />
@@ -122,17 +122,17 @@ const Hero = () => {
               <span className="mt-1">Successfully subscribed</span>
             </div>
           )}
-          <div className="mt-2 flex justify-center text-base font-normal text-gray-200 md:justify-end md:text-lg">
+          <div className="mt-2 flex justify-center text-base font-normal text-black md:justify-end md:text-lg">
             <span className="text-gray-100">Questions? Email</span>
             <a
-              href="mailto:team@calhacks.io"
+              href="mailto:tech.innovation.club@pau.edu.ng"
               className={`
               relative ml-1
               inline-block bg-gradient-to-r from-electric-blue to-heliotrope bg-clip-text text-transparent
               after:absolute after:block after:h-[3px] after:w-full after:origin-left after:scale-x-0 after:bg-heliotrope after:transition after:duration-300 after:content-[''] after:hover:scale-x-100
               `}
             >
-              team@calhacks.io
+              tech.innovation.club@pau.edu.ng
             </a>
           </div>
         </form>

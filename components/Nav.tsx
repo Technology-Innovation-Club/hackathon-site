@@ -14,22 +14,28 @@ const Nav = () => {
           <div className="flex space-x-4">
             <Link
               href="/"
-              className="flex items-center px-2 py-5 text-xl transition-all duration-300 hover:text-electric-blue"
+              className="flex items-center px-2 py-5 text-xl transition-all duration-300 hover:text-blue-400"
             >
               <span className="font-pp-mondwest">TIC Hackathon 2.0</span>
             </Link>
           </div>
           {/* Standard nav bar for non-mobile */}
           <div className="hidden items-center space-x-6 text-balance text-center md:flex">
+          <Link
+              href="/"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-blue-400 relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-blue-400 after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+            >
+              Home
+            </Link>
             <Link
               href="/about"
-              className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-blue-400 relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-blue-400 after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
             >
               About
             </Link>
             <Link
               href="/contact"
-              className="px-3 py-5 text-black transition-all duration-300 hover:text-electric-blue relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-electric-blue after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-blue-400 relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-blue-400 after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
             >
               Contact
             </Link>
@@ -37,7 +43,7 @@ const Nav = () => {
               href="https://tinyurl.com/tichackathon2"
               rel="noopener noreferrer"
               target="_blank"
-              className="glass-button px-4 py-2 text-black font-medium rounded-lg transition-all duration-300 hover:shadow-neon"
+              className="glass-button px-4 py-2 text-black font-medium rounded-lg transition-all duration-300 hover:shadow-blue-400"
             >
               Apply
             </a>
@@ -64,37 +70,43 @@ const Nav = () => {
             <AnimatePresence>
               {isOpen && (
                 <motion.div
-                  className="absolute right-[33px] top-[50px] z-20 h-[265px] w-[150px] flex flex-col items-center rounded-lg glass-card text-center md:hidden"
+                  className="absolute right-[33px] top-[50px] z-20 h-[265px] w-[150px] flex flex-col items-center rounded-lg glass-card bg-white/40 backdrop-blur-md text-center md:hidden"
                   initial={{ opacity: 0, scale: 0.95, y: -10 }}
                   animate={{ opacity: 1, scale: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.95, y: -10 }}
                   transition={{ duration: 0.2 }}
                 >
+                  <Link
+              href="/"
+              className="px-3 py-5 text-black transition-all duration-300 hover:text-blue-400 relative after:absolute after:bottom-3 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-blue-400 after:to-heliotrope after:transition-all after:duration-300 hover:after:w-full"
+            >
+              Home
+            </Link>
               <Link
                 href="/about"
-                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-blue-400 transition-colors duration-300"
               >
                 About
               </Link>
-              <a
+              {/* <a
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://forms.gle/x9AsZLftCKM1CAFE6"
-                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-blue-400 transition-colors duration-300"
               >
                 Volunteer/Judge
-              </a>
+              </a> */}
               <Link
                 href="/contact"
-                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-blue-400 transition-colors duration-300"
               >
                 Contact
               </Link>
               <Link
-                href="https://apply.hackberkeley.org"
+                href="https://tinyurl.com/tichackathon2"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="px-3 py-5 text-black hover:text-electric-blue transition-colors duration-300"
+                className="px-3 py-5 text-black hover:text-blue-400 transition-colors duration-300"
               >
                 Apply
               </Link>

@@ -20,7 +20,7 @@ export default function Home() {
               Please be advised we cannot offer travel reimbursements at this
               time. We apologize for the inconvenience
             </p>
-            <p className="text-bold text-electric-blue">
+            <p className="text-bold text-blue-400">
               <a href="mailto:tech.innovation.club@pau.edu.ng">tech.innovation.club@pau.edu.ng</a>
             </p>
           </div>

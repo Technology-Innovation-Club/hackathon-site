@@ -29,7 +29,7 @@ const Landing = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://apply.hackberkeley.org"
+              href="https://tinyurl.com/tichackathon2"
               className="inline-block animate-fade-in-up"
             >
               <button className="group relative overflow-hidden bg-black px-8 py-4 font-bold text-white transition-all duration-300 hover:scale-105 hover:shadow-neon rounded-lg">

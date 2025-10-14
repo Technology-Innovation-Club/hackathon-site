@@ -13,7 +13,7 @@ const Logos: FC<LogosProps> = ({ className }) => {
         href="https://ticpau.vercel.app"
         rel="noopener noreferrer"
         target="_blank"
-        className="relative z-50 m-0 -mt-1.5 p-0"
+        className="relative  m-0 -mt-1.5 p-0"
       >
         <Image
           src="/images/tic_logo.png"
@@ -26,7 +26,7 @@ const Logos: FC<LogosProps> = ({ className }) => {
         href="https://pau.edu.ng/"
         rel="noopener noreferrer"
         target="_blank"
-        className="relative z-50 m-0 p-0"
+        className="relative m-0 p-0"
       >
         <Image
           src="/images/pau_logo.png"

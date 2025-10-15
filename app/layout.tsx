@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/lib/config";
+import { Analytics } from "@vercel/analytics/next"
 // import Banner from "@/components/Banner";
 
 const ppNeueBit = localFont({
@@ -86,6 +87,7 @@ export default function RootLayout({
         {/* Import Banner 1 week to event date */}
         {/* <Banner /> */}
         {children}
+        <Analytics />
       </body>
     </html>
   );

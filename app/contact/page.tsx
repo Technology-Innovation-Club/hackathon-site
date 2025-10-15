@@ -13,12 +13,8 @@ export default function Home() {
         <div className="w-95 mt-12 max-w-3xl px-8 text-center text-lg">
           <div>
             <p className="mb-2">
-              We are here to help. Please check out FAQ, and email us if your
+              We are here to help. Please check out our FAQ, and email us if your
               question is not answered. We’ll get back to you as soon as we can!
-            </p>
-            <p className="mb-2">
-              Please be advised we cannot offer travel reimbursements at this
-              time. We apologize for the inconvenience
             </p>
             <p className="text-bold text-blue-400">
               <a href="mailto:tech.innovation.club@pau.edu.ng">tech.innovation.club@pau.edu.ng</a>

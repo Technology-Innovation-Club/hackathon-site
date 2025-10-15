@@ -172,7 +172,7 @@ const FAQ = () => {
              <h1 className="mb-0 font-pp-mondwest text-4xl animate-fade-in-up">
                 Frequently Asked Questions
               </h1>
-              <h1 className="mb-10 font-pp-mondwest text-4xl text-electric-blue animate-fade-in-up">
+              <h1 className="mb-10 font-pp-mondwest text-4xl animate-fade-in-up">
                 - we’ve got the answers.
               </h1>
              </div>

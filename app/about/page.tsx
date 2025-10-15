@@ -99,20 +99,14 @@ export default function Home() {
                   Pan-Atlantic University — Hack Space & Demo Area
                 </td>
               </tr>
-              <tr className="border-b border-gray-300">
-                <td className="p-4 font-semibold text-blue-400">
-                  Participants
-                </td>
-                <td className="p-4">80 students • 20 teams</td>
-              </tr>
-              <tr className="border-b border-gray-300">
+              {/* <tr className="border-b border-gray-300">
                 <td className="p-4 font-semibold text-blue-400">
                   Prize Pool
                 </td>
                 <td className="p-4">
                   ₦1.8 Million + Internship Opportunities (₦1M, ₦500K, ₦300K)
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td className="p-4 font-semibold text-blue-400">Theme</td>
                 <td className="p-4">Reimagining Today with AI</td>
